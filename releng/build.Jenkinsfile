@@ -37,7 +37,7 @@ pipeline {
                 -PignoreTestFailures=true \
                 --refresh-dependencies \
                 --continue \
-                clean build signJar createLocalMavenRepo \
+                clean build signJar publish \
                 "
         }
       }
